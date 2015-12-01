@@ -1,5 +1,6 @@
 class @MixingpanelProperties
   constructor: (internal_domain, url, search) ->
+    # This optional params are only for tests purposes
     @internal_domain = (internal_domain or
                         mixingpanel_options.internal_domain or
                         window.location.host)
