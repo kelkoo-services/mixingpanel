@@ -169,3 +169,6 @@ callback, that function can be used in some special cases.
 
 * Escape regexp for internal domain checking
 
+## 0.60.3 (Jul 18, 2018)
+
+* Escape XSS string protection included in javascript config
